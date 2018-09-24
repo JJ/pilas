@@ -3,7 +3,7 @@
  *
  * Copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se
  */
-@import url('https://fonts.googleapis.com/css?family=Lato|Black+Han+Sans|Overpass+Mono');
+@import url('https://fonts.googleapis.com/css?family=Lato|Playfair+Display|Overpass+Mono');
 /*********************************************
  * GLOBAL STYLES
  *********************************************/
@@ -57,7 +57,7 @@ body {
   word-wrap: break-word; }
 
 .reveal h1 {
-    font-family: 'Black Han Sans', sans-serif;
+    font-family: 'Playfair Display', sans-serif;
     font-size: 3em;
 }
 
