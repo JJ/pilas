@@ -90,19 +90,13 @@ alt='logo'>
 	</section>
 
 	<section><pre><code>"""Hitos de IV servidos para usted"""
-
 import hug
-
 from HitosIV import HitosIV
-
-
 estos_hitos = HitosIV()
-
 @hug.get('/all')
 def all():
     """Devuelve todos los hitos"""
-    return { "hitos": estos_hitos.todos_hitos() }
-	</code></pre>
+    return { "hitos": estos_hitos.todos_hitos() }</code></pre>
 
 	  <aside class='notes'>Una función bastante simple, que devuelve
 	  todos los hitos, y lo hace en forma de JSON, que puede ser
@@ -206,7 +200,7 @@ def one( id: int ):
 	</section>
 	
       </div>
-		</div>
+</div>
 
 		<script src="lib/js/head.min.js"></script>
 		<script src="js/reveal.js"></script>
